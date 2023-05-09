@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+
+.grid-container{
+     height:532px;
+     width:310px;
+     background-color: rgba(255, 252, 252, 0.885);
+     margin-left: 39.6%;
+     border-radius: 12px;
+     border-color: black;
+     border-style:solid;
+     display: grid;
+     grid-template-columns:auto auto auto auto;
+     grid-template-rows: repeat(6 40px);
+     padding: 2px;
+     grid-gap: 0.5px 4px;
+}
+
+.solutionspace{
+    height:120px;
+    grid-column:1/span 4 ;
+    align-items: center;
+    border-radius: 12px;
+    border-style:groove;
+}
+
+.grid-item{
+    border-radius: 12px;
+    border: 1px solid rgba(220, 217, 217, 0.915);
+    padding:10px;
+    font-size:25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    height:30px;
+    box-shadow: 1px 1px rgb(98, 94, 94);
+}
+
+.equals{
+    background-color: rgb(34, 105, 236);
+    box-shadow: 1px 1px rgb(10, 66, 187) !important;
+}
